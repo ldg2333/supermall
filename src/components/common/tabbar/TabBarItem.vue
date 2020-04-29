@@ -34,7 +34,6 @@ export default {
   },
   methods: {
     itemClick() {
-      console.log("被点击");
       this.$router.push(this.path);
     }
   },
